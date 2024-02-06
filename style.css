@@ -1105,22 +1105,32 @@ table {
   color: #f15b5a;
 }
 .nav-list-dd {
-  min-width: 650px;
-  top: calc(100% + 14px);
-  left: -140px;
-  z-index: 99;
-  border-top: 2px solid #e1a600;
+  width: 94vw;
+    max-width: 1184px;
+    top: 125px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 99;
+    border-top: 2px solid #e1a600;
+
 }
 
 .nav-item:hover .nav-list-dd {
   display: flex;
 }
 .nav-list-dd:after {
-  border-bottom: 8px solid #e1a600;
-  border-left: 8px solid transparent;
-  border-right: 8px solid transparent;
-  left: 220px;
-  top: -8px;
+  border-bottom: 10px solid #e1a600;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    width: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -12px;
+    transform: translateX(130px);
+
 }
 .nav-list-dd:before {
   width: 100%;
@@ -1129,17 +1139,32 @@ table {
   top: -16px;
   background-color: transparent;
 }
+.nav-item-ddd:hover{
+  transform:translateX(2px)
+}
+.card-img-text{
+  top: 10px;
+    left: 10px;
+    background-color: #ed0925;
+    padding: 4px 8px;
+    border-radius: 5px;
+    line-height: 18px;
+}
+.popup-btn:hover{
+  background-color: rgb(218 47 25);
+  border-radius: 8px;
+}
 .banner1 {
-  background: url(images/banner-01.jpg) no-repeat right/contain,
-    linear-gradient(
-      55deg,
-      rgba(27, 27, 27, 0.95) 30%,
-      rgba(77, 46, 16, 0.95) 100%
-    ),
-    url(images/banner-bg-01.jpg) no-repeat center/cover;
+  background: url(images/soft-services-banner-01.jpg) no-repeat center/cover;
 }
 .banner2 {
-  background: url(images/banner-02.jpg) no-repeat center/cover;
+  background: url(images/business-support-services-banner-01.jpg) no-repeat center/cover;
+}
+.banner3 {
+  background: url(images/production-support-services-banner-01.jpg) no-repeat center/cover;
+}
+.banner4 {
+  background: url(images/horticulture-services-banner-01.jpg) no-repeat center/cover;
 }
 .banner-text-circle {
   height: 152px;
