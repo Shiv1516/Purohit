@@ -1105,9 +1105,9 @@ table {
   color: #f15b5a;
 }
 .nav-list-dd {
-  min-width: 480px;
+  min-width: 650px;
   top: calc(100% + 14px);
-  left: 0px;
+  left: -140px;
   z-index: 99;
   border-top: 2px solid #e1a600;
 }
@@ -1119,7 +1119,7 @@ table {
   border-bottom: 8px solid #e1a600;
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
-  left: 20px;
+  left: 220px;
   top: -8px;
 }
 .nav-list-dd:before {
