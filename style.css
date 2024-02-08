@@ -94,7 +94,7 @@ ul {
   margin: 0;
 }
 input:focus-visible {
-  outline-color: #a9d621;
+  outline-color: #e1a600;
 }
 /* Reset Form Elements */
 button,
@@ -314,7 +314,8 @@ table {
 .bg2 {
   background-color: #c9f31d;
 }
-.bg3 {
+.bg3,
+.bg-h1:hover  {
   background-color: #e1a600;
 }
 .bg4 {
@@ -383,7 +384,8 @@ table {
   }
 }
 
-.fc1 {
+.fc1,
+.fc-h3:hover {
   color: #fff;
 }
 .fc2,
@@ -391,7 +393,7 @@ table {
   color: #f15b5a;
 }
 .fc3 {
-  color: #000;
+  color: #0f0e0e;
 }
 .fc4,
 .fc-h2:hover {
@@ -957,8 +959,11 @@ table {
 .w100 {
   width: 100%;
 }
-.w50p {
+.w50 {
   width: 50%;
+}
+.w90 {
+  width: 90%;
 }
 .w8 {
   width: 8px;
@@ -1013,6 +1018,9 @@ table {
 }
 .br24 {
   border-radius: 24px;
+}
+.br50 {
+  border-radius: 50%;
 }
 .br50 {
   border-radius: 50%;
@@ -1150,7 +1158,10 @@ table {
     border-radius: 5px;
     line-height: 18px;
 }
-.popup-btn:hover{
+.popup-btn:hover,
+.about-sec-btn:hover,
+.testimonial-sec-btn:hover,
+.footer-form-btn:hover{
   background-color: rgb(218 47 25);
   border-radius: 8px;
 }
@@ -1398,6 +1409,35 @@ table {
   font-style: italic;
 }
 /* testimonial-section-end */
+
+/* about-page-start */
+.about-pera-text2:after{
+  height: 100%;
+  background: #e1a600;
+  width: 5px;
+  transition: all 0.4s ease-in-out;
+  left: 0;
+  top: 0;
+  border-radius: 4px;
+  z-index: 1;
+}
+.experiance-area{
+    width: 180px;
+    height: 100px;
+    top: -50px;
+    right: -50px;
+}
+.year-active{
+  background-color: #f15b5a;
+  color: #fff;
+}
+/* about-page-end */
+
+/* contact-page-start */
+.message-box{
+  resize: none;
+}
+/* contact-page-end */
 
 /* footer-start */
 .footer-list-title:after,
