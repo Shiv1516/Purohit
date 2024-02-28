@@ -138,7 +138,7 @@
                             </ul>
                         </li>
                         <li class="nav-item fw4 transit2 fs16 p16 mlr4 fc3">
-                            <a href="#">Clientele</a>
+                            <a href="clients.html">Clientele</a>
                         </li>
                         <li class="nav-item fw4 transit2 fs16 p16 mlr4 fc3">
                             <a href="contact-us.html">Contact Us</a>
@@ -152,11 +152,23 @@
         </nav>
     </header>
     <main>
+        <section class="breadcrumb ptb24 bg6">
+            <div class="wrapper">
+                <ul class="beadcrumb-container df ttu">
+                    <li class="v-center pr12 fs14 cp"><a href="index.html">HOME</a></li>
+                    <li class="v-center pr12">
+                        <span class="material-symbols-outlined fs18"> navigate_next </span>
+                    </li>
+                    <li class="v-center pr12 fs14 fw5">Contact</li>
+                </ul>
+            </div>
+        </section>
+
         <section class="form-section pt48">
-            <div class="contact-form wrapper df ptb48 bg4">
+            <div class="contact-form wrapper h-center ptb48 bg4">
                 <div class="left-side flx60 p32">
                     <div class="heading-contain">
-                        <h3 class="form-heading fc3 ff2 fs28 fw6 lh30 mb16">Explore Mishyaan Glitz – Unveil Glamour!
+                        <h3 class="form-heading fc3 ff2 fs36 fw6 lh30 mb16">Explore Mishyaan Glitz – Unveil Glamour!
                         </h3>
                         <p class="form-detail lh24 fc3">
                             Curious about Mishyaan Glitz? Dive into a world of sophistication and style. Discover
@@ -195,13 +207,13 @@
                                     class="message-box db w100 br4 brd1 p16 mlr4" placeholder="Message"
                                     required="required" aria-required="true" autocomplete="off" rows="4"></textarea>
                             </div>
-                            <button class="footer-form-btn transit2 fw5 br2 fs16 plr24 h48 fc1 cp bg3 mlr4">
+                            <button class="contact-form-btn transit2 fw5 br2 fs16 plr24 h48 fc1 cp bg3 mlr4">
                                 Contact Us
                             </button>
                         </div>
                     </form>
                 </div>
-                <div class="flx1 p32">
+                <div class="right-side flx40 p32">
                     <div class="add-section bg5 mb24 df ptb32 plr24">
                         <span class="material-symbols-outlined mr16 fs36">
                             schedule
@@ -236,7 +248,7 @@
 
         <section class="map-section pb48">
             <div class="map-container wrapper ptb48">
-                <iframe
+                <iframe class="contact-map"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7008.00354433213!2d77.3227091!3d28.569709500000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce44f2ca1470f%3A0x8cff905b6cbfb433!2sSector%2018%2C%20Noida%2C%20Uttar%20Pradesh%20201301!5e0!3m2!1sen!2sin!4v1707371474126!5m2!1sen!2sin"
                     width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -290,7 +302,7 @@
                     </div>
                 </div>
             </div>
-            <div class="footer-links df fc1 mt32 jcsb">
+            <div class="footer-links df fc1 mt32 jcsb fww">
                 <div class="footer-list pl32 flx33">
                     <h4 class="footer-list-title pb12 ttu fs24 fs18 fw6 pr aft">
                         Company
@@ -348,31 +360,6 @@
                         </li>
                     </ul>
                 </div>
-            </div>
-            <div class="footer-links df fc1 mt32 jcsb">
-                <div class="footer-list pl32 flx33">
-                    <h4 class="footer-list-title pb12 ttu fs24 fs18 fw6 pr aft">
-                        Address
-                    </h4>
-                    <ul class="mt24 fw5 lh24">
-                        <li class="sub-list v-center mb12">
-                            <img src="images/svg-icon/location.svg" alt="Location-svg" />
-                            <a class="footer-sub-item ml8" href="#">
-                                Shop No-1 || First Floor ||<br />
-                                Gali No-3 || Sector-66 || Noida
-                            </a>
-                        </li>
-                        <li class="sub-list v-center mb12">
-                            <img src="images/svg-icon/phone.svg" alt="Phone" />
-                            <a class="footer-sub-item ml8" href="#"> +91-8527534097 </a>
-                        </li>
-                        <li class="sub-list v-center mb12 cp">
-                            <img src="images/svg-icon/message.svg" alt="Mail" />
-                            <a class="footer-sub-item ml8" href="#">info@gurkirpaservices.com
-                            </a>
-                        </li>
-                    </ul>
-                </div>
                 <div class="footer-list pl32 flx33">
                     <h4 class="footer-list-title pb12 ttu fs24 fs18 fw6 pr aft">
                         Production Support Services
@@ -414,8 +401,30 @@
                         </li>
                     </ul>
                 </div>
+                <div class="footer-list pl32 flx33">
+                    <h4 class="footer-list-title pb12 ttu fs24 fs18 fw6 pr aft">
+                        Address
+                    </h4>
+                    <ul class="mt24 fw5 lh24">
+                        <li class="sub-list v-center mb12">
+                            <img src="images/svg-icon/location.svg" alt="Location-svg" />
+                            <a class="footer-sub-item ml8" href="#">
+                                Shop No-1 || First Floor ||<br />
+                                Gali No-3 || Sector-66 || Noida
+                            </a>
+                        </li>
+                        <li class="sub-list v-center mb12">
+                            <img src="images/svg-icon/phone.svg" alt="Phone" />
+                            <a class="footer-sub-item ml8" href="#"> +91-8527534097 </a>
+                        </li>
+                        <li class="sub-list v-center mb12 cp">
+                            <img src="images/svg-icon/message.svg" alt="Mail" />
+                            <a class="footer-sub-item ml8" href="#">info@gurkirpaservices.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
         </div>
     </footer>
     <footer class="footer-bottom bg7">

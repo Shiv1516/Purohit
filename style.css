@@ -250,7 +250,7 @@ table {
 }
 .flx40 {
   flex: 0 0 40%;
-  max-width: 500px;
+  max-width: 40%;
 }
 .flx50 {
   flex: 0 0 50%;
@@ -1161,6 +1161,7 @@ table {
 .popup-btn:hover,
 .about-sec-btn:hover,
 .testimonial-sec-btn:hover,
+.contact-form-btn:hover,
 .footer-form-btn:hover{
   background-color: rgb(218 47 25);
   border-radius: 8px;
@@ -1498,6 +1499,10 @@ table {
 }
 
 @media only screen and (max-width: 821px) {
+  .fs36{
+    font-size: 32px;
+    line-height: 38px;
+  }
   .top-nav {
     display: none;
   }
@@ -1539,6 +1544,7 @@ table {
     display: block;
     padding: 0 24px;
     border-top: none;
+    top: 0;
   }
   .nav-item-dd:nth-child(2) {
     padding-left: 0;
@@ -1578,14 +1584,84 @@ table {
   .bnt-dsgn-text {
     transform: translate(-30px, 50px);
   }
-  .banner1 {
-    background: url(images/banner-01.jpg) no-repeat 42vw bottom/contain,
-      linear-gradient(
-        55deg,
-        rgba(27, 27, 27, 0.95) 30%,
-        rgba(77, 46, 16, 0.95) 100%
-      ),
-      url(images/banner-bg-01.jpg) no-repeat center/cover;
+  .swiper .swiper-slide {
+    min-height: 550px;
+  }
+  .banner1{
+    background-position-x: -10vw;
+  }
+  .banner2{
+    background-position-x: -11vw;
+  }
+  .banner3{
+    background-position-x: -35vw;
+  }
+  .breadcrumb{
+    padding: 12px 0;
+  }
+  .beadcrumb-container{
+    margin-left: 16px;
+  }
+  .about-textarea{
+    padding-right: 12px;
+    margin-bottom: 32px;
+  }
+  .about-textarea2{
+    margin-top: 32px;
+  }
+  .about-textarea,
+  .about-textarea2,
+  .about-image-area,
+  .about-image-area2{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .about-section2{
+    padding-bottom: 0px;
+  }
+  .history-section{
+    padding-top: 0;
+  }
+  .experiance-area {
+    right: -16px;
+  }
+  .history-heading{
+    margin-top: 16px;
+  }
+  .hist-image-area,
+  .history-content,
+  .intro-text,
+  .intro-img,
+  .side-img,
+  .trused-partner-side-boxarea,
+  .trused-partner-text-area,
+  .ser-testimonial-text,
+  .services-card{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .history-content{
+    padding: 0 12px 24px 12px;
+  }
+  .history-heading{
+    margin-bottom: 16px;
+  }
+  .trused-partner-side-boxarea{
+    margin: 24px 0;
+  }
+  .trused-partner-text-area .text-box{
+    margin: 0;
+  }
+  .service-card-img{
+    flex: 40px;
+    max-width: 100%;
+  }
+  .service-card-text{
+    flex: 0 0 60%;
+    max-width: 100%;
+  }
+  .ser-testimonial-text{
+    margin-bottom: 24px;
   }
   .home-text {
     flex: 0 0 100%;
@@ -1594,10 +1670,6 @@ table {
   }
   .service-container {
     display: block;
-  }
-  .flx50 {
-    flex: 0 0 50%;
-    max-width: 100%;
   }
   .footer-section {
     display: block;
@@ -1657,8 +1729,6 @@ table {
     padding: 0 14px;
   }
   .footer-list {
-    flex: 0 0 25%;
-    max-width: 25%;
     margin: 28px 0 0 0;
   }
   .footer-list-title {
@@ -1684,6 +1754,9 @@ table {
   .ptb48 {
     padding-top: 28px;
     padding-bottom: 28px;
+  }
+  .pt48{
+    padding-top: 28px;
   }
   .testimonial-border-radius:after {
     background-position: left 12px;
@@ -1727,6 +1800,18 @@ table {
     font-size: 15px;
     line-height: 20px;
   }
+  .contact-form{
+    flex-wrap: wrap;
+  }
+  .contact-form .left-side{
+    margin-bottom: 32px;
+  }
+  .contact-form .left-side,
+  .contact-form .right-side{
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 24px;
+  }
   .footer-quick-form {
     flex-direction: column;
     text-align: center;
@@ -1761,6 +1846,9 @@ table {
   .fs22 {
     font-size: 20px;
   }
+  .swiper .swiper-slide {
+    min-height: 450px;
+}
   .news-section,
   .facilty-sec,
   .manpower-sec {
@@ -1785,7 +1873,7 @@ table {
     margin-top: 32px;
   }
   .banner-content h2 {
-    font-size: 42px;
+    font-size: 40px;
     font-weight: 600;
     line-height: 48px;
   }
@@ -1807,14 +1895,11 @@ table {
   .bnt-dsgn-text {
     font-size: 16px;
   }
-  .banner1 {
-    background: url(images/banner-01.jpg) no-repeat 10vw bottom/contain,
-      linear-gradient(
-        55deg,
-        rgba(27, 27, 27, 0.95) 30%,
-        rgba(77, 46, 16, 0.95) 100%
-      ),
-      url(images/banner-bg-01.jpg) no-repeat center/cover;
+  .banner1,
+  .banner2,
+  .banner3,
+  .banner4 {
+    background-position-x: left;
   }
   .news-container {
     display: block;
@@ -1823,6 +1908,20 @@ table {
   .new-img {
     flex: 0 0 100%;
     max-width: 100%;
+  }
+  .contact-form .left-side,
+  .contact-form .right-side{
+    padding: 0 12px;
+  }
+  .contact-form-input{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .contact-form-btn{
+    width: 100%;
+  }
+  .contact-map{
+    height: 350px;
   }
 }
 @media only screen and (max-width: 431px) {
@@ -1862,8 +1961,6 @@ table {
     padding-top: 12px;
     padding-bottom: 12px;
     justify-content: center;
-    flex: 0 0 48%;
-    max-width: 48%;
     margin-bottom: 16px;
   }
   .home-content div {
@@ -1872,26 +1969,24 @@ table {
   .flx33 {
     max-width: 100%;
   }
-  .swiper .swiper-slide {
-    height: 84vh;
+  .banner-content h2 {
+    font-size: 38px;
   }
   .latest-news article {
     flex: 0 0 100%;
     margin-top: 24px;
+  }
+  .contact-map{
+    height: 250px;
   }
   .footer-list {
     padding-left: 14px;
   }
 }
 
-@media only screen and (max-width: 391px) {
-  .swiper .swiper-slide {
-    height: 84vh;
-  }
-}
 @media only screen and (max-width: 376px) {
   .swiper .swiper-slide {
-    height: 112vh;
+    height: 80vh;
   }
 
   .discover-sec-content .section-heading {
