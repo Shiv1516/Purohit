@@ -189,8 +189,12 @@ table {
 .tar {
   text-align: right;
 }
+.tdu,
 .tdhu:hover {
   text-decoration: underline;
+}
+.tdlt{
+  text-decoration: line-through;
 }
 .jcc,
 .h-center,
@@ -471,7 +475,8 @@ table {
   line-height: 60px;
 }
 
-.ls1 {
+.ls1,
+.ls-h1:hover {
   letter-spacing: 0.5px;
 }
 .ls2 {
@@ -899,6 +904,9 @@ table {
 .brd2 {
   border: 1px solid #bc222e;
 }
+.brd3 {
+  border: 2px solid #edcc6e;
+}
 .brd4 {
   border: 1px solid #edcc6ec4;
 }
@@ -908,11 +916,11 @@ table {
 .brd-b2 {
     border-left: 1px solid #dee2e6!important;
 }
-.brd3 {
-  border: 2px solid #edcc6e;
-}
 .brd-b3 {
   border-bottom: 2px solid #dfc57a;
+}
+.brd-b4 {
+  border-bottom: 2px solid #1f1e1e;
 }
 .bs1,
 .bs-h1:hover {
@@ -1000,6 +1008,9 @@ table {
 .h100vh {
   height: 100vh;
 }
+.h100{
+  height: 100%;
+}
 
 .br2 {
   border-radius: 2px;
@@ -1035,6 +1046,12 @@ table {
   margin-left: auto;
   margin-right: auto;
 }
+.wrapper2{
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 .menu-btn {
   display: none;
@@ -1119,6 +1136,9 @@ table {
 .review-card:hover{
   transform: scale(1.02);
 }
+.service-cards .card{
+  height: auto;
+}
 
 .trending-card:hover {
   box-shadow: 0px 0px 5px 6px #dfc57a;
@@ -1164,18 +1184,40 @@ table {
 
 /* temple-services */
 .temple-slider-01{
-  height: 450px;
+  height: 325px;
+  min-height: 60vh;
   background: url(images/temple-service-slider-img/ganpati-templepurohit.jpg)  no-repeat center/cover;
 }
 .temple-slider-02{
-  height: 450px;
+  height: 325px;
+  min-height: 60vh;
   background: url(images/temple-service-slider-img/lord-shiva.jpg)  no-repeat top/cover;
 }
 .temple-slider-03{
-  height: 450px;
+  height: 325px;
+  min-height: 60vh;
   background: url(images/temple-service-slider-img/temple-purohit-get.jpg)  no-repeat center/cover;
 }
+.temple-card{
+  width: 290px;
+}
 
+/* shop-page */
+.search-leftContainer{
+  min-width: 252px;
+  max-width: 252px;
+}
+.product-base{
+  width: 240px;
+}
+.product-fav{
+  top: 8px;
+  right: 8px;
+}
+
+/* .prd-img{
+  height: 280px;
+} */
 
 @media screen and (max-width: 1025px){
   .w60{
