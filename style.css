@@ -1434,6 +1434,14 @@ table {
 }
 /* about-page-end */
 
+/* Services Page */
+.wcu-img {
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+}
+/* Services Page */
+
 /* contact-page-start */
 .message-box{
   resize: none;
@@ -1625,7 +1633,7 @@ table {
   .experiance-area {
     right: -16px;
   }
-  .history-heading{
+  .history-heading, .testimonial-card, .intro-text, .intro-box{
     margin-top: 16px;
   }
   .hist-image-area,
@@ -1742,6 +1750,25 @@ table {
     margin-bottom: 0px;
     font-size: 12px;
   }
+  .intro-container, .testimonial-cards {
+    flex-wrap: wrap;
+  }
+  .categorys-card{
+    flex: 50%;
+    max-width: 50%;
+  }
+  .contact-form{
+    flex-wrap: wrap;
+  }
+  .contact-form .left-side{
+    margin-bottom: 32px;
+  }
+  .contact-form .left-side,
+  .contact-form .right-side{
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 24px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -1799,18 +1826,6 @@ table {
   .testimonial-card p {
     font-size: 15px;
     line-height: 20px;
-  }
-  .contact-form{
-    flex-wrap: wrap;
-  }
-  .contact-form .left-side{
-    margin-bottom: 32px;
-  }
-  .contact-form .left-side,
-  .contact-form .right-side{
-    flex: 0 0 100%;
-    max-width: 100%;
-    padding: 0 24px;
   }
   .footer-quick-form {
     flex-direction: column;
@@ -1942,12 +1957,13 @@ table {
   .quality-sec,
   .home-content,
   .container-content,
-  .cont-list {
+  .cont-list,
+  .testimonial-all-cards  {
     display: block;
   }
   .flx16 {
     flex: 0 0 100%;
-    max-width: 50%;
+    max-width: 100%;
   }
   .flx20 {
     flex: 0 0 100%;
@@ -1982,6 +1998,11 @@ table {
   .footer-list {
     padding-left: 14px;
   }
+  .ser-testimonial-card {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 16px;
+}
 }
 
 @media only screen and (max-width: 376px) {
