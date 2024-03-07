@@ -1031,6 +1031,12 @@ table {
 .br-br-01 {
   border-radius: 0 4px 4px 0;
 }
+.w4{
+  width: 4px;
+}
+.br-br-04 {
+  border-radius: 0 8px 8px 0;
+}
 .box-sd1 {
   box-shadow: 0 0 24px rgba(0, 0, 0, 0.06);
 }
@@ -1201,7 +1207,11 @@ table {
 .temple-card{
   width: 290px;
 }
-
+/* Astrology-page */
+.card-main-section img{
+  border-radius: 50%;
+  max-width: 45px;
+}
 /* shop-page */
 .search-leftContainer{
   min-width: 252px;
