@@ -1228,6 +1228,12 @@ table {
 /* .prd-img{
   height: 280px;
 } */
+.brd-01{
+  border-left: 4px solid #bc222e;
+}
+.bs3{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
 
 @media screen and (max-width: 1025px){
   .w60{
