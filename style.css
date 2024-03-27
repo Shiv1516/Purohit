@@ -315,7 +315,7 @@ table {
   background-color: #c9f31d;
 }
 .bg3,
-.bg-h1:hover  {
+.bg-h1:hover {
   background-color: #e1a600;
 }
 .bg4 {
@@ -599,6 +599,9 @@ table {
 }
 .mla {
   margin-left: auto;
+}
+.ma {
+  margin: auto;
 }
 .m8 {
   margin: 8px;
@@ -1114,15 +1117,14 @@ table {
 }
 .nav-list-dd {
   width: 94vw;
-    max-width: 1184px;
-    top: 125px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    position: fixed;
-    z-index: 99;
-    border-top: 2px solid #e1a600;
-
+  max-width: 1184px;
+  top: 125px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 99;
+  border-top: 2px solid #e1a600;
 }
 
 .nav-item:hover .nav-list-dd {
@@ -1130,15 +1132,14 @@ table {
 }
 .nav-list-dd:after {
   border-bottom: 10px solid #e1a600;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    width: 0;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    top: -12px;
-    transform: translateX(130px);
-
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  width: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: -12px;
+  transform: translateX(130px);
 }
 .nav-list-dd:before {
   width: 100%;
@@ -1147,22 +1148,22 @@ table {
   top: -21px;
   background-color: transparent;
 }
-.nav-item-ddd:hover{
-  transform:translateX(2px)
+.nav-item-ddd:hover {
+  transform: translateX(2px);
 }
-.card-img-text{
+.card-img-text {
   top: 10px;
-    left: 10px;
-    background-color: #ed0925;
-    padding: 4px 8px;
-    border-radius: 5px;
-    line-height: 18px;
+  left: 10px;
+  background-color: #ed0925;
+  padding: 4px 8px;
+  border-radius: 5px;
+  line-height: 18px;
 }
 .popup-btn:hover,
 .about-sec-btn:hover,
 .testimonial-sec-btn:hover,
 .contact-form-btn:hover,
-.footer-form-btn:hover{
+.footer-form-btn:hover {
   background-color: rgb(218 47 25);
   border-radius: 8px;
 }
@@ -1170,13 +1171,16 @@ table {
   background: url(images/soft-services-banner-01.jpg) no-repeat center/cover;
 }
 .banner2 {
-  background: url(images/business-support-services-banner-01.jpg) no-repeat center/cover;
+  background: url(images/business-support-services-banner-01.jpg) no-repeat
+    center/cover;
 }
 .banner3 {
-  background: url(images/production-support-services-banner-01.jpg) no-repeat center/cover;
+  background: url(images/production-support-services-banner-01.jpg) no-repeat
+    center/cover;
 }
 .banner4 {
-  background: url(images/horticulture-services-banner-01.jpg) no-repeat center/cover;
+  background: url(images/horticulture-services-banner-01.jpg) no-repeat
+    center/cover;
 }
 .banner-text-circle {
   height: 152px;
@@ -1298,6 +1302,9 @@ table {
   background-position: center center;
   background-size: cover;
 }
+.service-card-img {
+  height: 250px;
+}
 
 .card-img img {
   min-width: 100%;
@@ -1354,15 +1361,18 @@ table {
   margin-right: 1.5%;
 }
 .card-first {
-  background: url(images/energize-and-sanitize/gurkripa-services.png) no-repeat right/contain,
+  background: url(images/energize-and-sanitize/gurkripa-services.png) no-repeat
+      right/contain,
     linear-gradient(165deg, #f15b5a 40%, #cc4444 100%);
 }
 .card-second {
-  background: url(images/energize-and-sanitize/glow-n-shine.png) no-repeat right/contain,
+  background: url(images/energize-and-sanitize/glow-n-shine.png) no-repeat
+      right/contain,
     linear-gradient(165deg, #7675c0 40%, #6968b4 100%);
 }
 .card-third {
-  background: url(images/energize-and-sanitize/glitters.png) no-repeat right/contain,
+  background: url(images/energize-and-sanitize/glitters.png) no-repeat
+      right/contain,
     linear-gradient(165deg, #b71575 40%, #a21369 100%);
 }
 .virticle-card p {
@@ -1412,7 +1422,7 @@ table {
 /* testimonial-section-end */
 
 /* about-page-start */
-.about-pera-text2:after{
+.about-pera-text2:after {
   height: 100%;
   background: #e1a600;
   width: 5px;
@@ -1422,13 +1432,13 @@ table {
   border-radius: 4px;
   z-index: 1;
 }
-.experiance-area{
-    width: 180px;
-    height: 100px;
-    top: -50px;
-    right: -50px;
+.experiance-area {
+  width: 180px;
+  height: 100px;
+  top: -50px;
+  right: -50px;
 }
-.year-active{
+.year-active {
   background-color: #f15b5a;
   color: #fff;
 }
@@ -1443,7 +1453,7 @@ table {
 /* Services Page */
 
 /* contact-page-start */
-.message-box{
+.message-box {
   resize: none;
 }
 /* contact-page-end */
@@ -1507,7 +1517,7 @@ table {
 }
 
 @media only screen and (max-width: 821px) {
-  .fs36{
+  .fs36 {
     font-size: 32px;
     line-height: 38px;
   }
@@ -1595,45 +1605,48 @@ table {
   .swiper .swiper-slide {
     min-height: 550px;
   }
-  .banner1{
+  .banner1 {
     background-position-x: -10vw;
   }
-  .banner2{
+  .banner2 {
     background-position-x: -11vw;
   }
-  .banner3{
+  .banner3 {
     background-position-x: -35vw;
   }
-  .breadcrumb{
+  .breadcrumb {
     padding: 12px 0;
   }
-  .beadcrumb-container{
+  .beadcrumb-container {
     margin-left: 16px;
   }
-  .about-textarea{
+  .about-textarea {
     padding-right: 12px;
     margin-bottom: 32px;
   }
-  .about-textarea2{
+  .about-textarea2 {
     margin-top: 32px;
   }
   .about-textarea,
   .about-textarea2,
   .about-image-area,
-  .about-image-area2{
+  .about-image-area2 {
     flex: 0 0 100%;
     max-width: 100%;
   }
-  .about-section2{
+  .about-section2 {
     padding-bottom: 0px;
   }
-  .history-section{
+  .history-section {
     padding-top: 0;
   }
   .experiance-area {
     right: -16px;
   }
-  .history-heading, .testimonial-card, .intro-text, .intro-box{
+  .history-heading,
+  .testimonial-card,
+  .intro-text,
+  .intro-box {
     margin-top: 16px;
   }
   .hist-image-area,
@@ -1644,31 +1657,31 @@ table {
   .trused-partner-side-boxarea,
   .trused-partner-text-area,
   .ser-testimonial-text,
-  .services-card{
+  .services-card {
     flex: 0 0 100%;
     max-width: 100%;
   }
-  .history-content{
+  .history-content {
     padding: 0 12px 24px 12px;
   }
-  .history-heading{
+  .history-heading {
     margin-bottom: 16px;
   }
-  .trused-partner-side-boxarea{
+  .trused-partner-side-boxarea {
     margin: 24px 0;
   }
-  .trused-partner-text-area .text-box{
+  .trused-partner-text-area .text-box {
     margin: 0;
   }
-  .service-card-img{
+  .service-card-img {
     flex: 40px;
     max-width: 100%;
   }
-  .service-card-text{
+  .service-card-text {
     flex: 0 0 60%;
     max-width: 100%;
   }
-  .ser-testimonial-text{
+  .ser-testimonial-text {
     margin-bottom: 24px;
   }
   .home-text {
@@ -1750,21 +1763,22 @@ table {
     margin-bottom: 0px;
     font-size: 12px;
   }
-  .intro-container, .testimonial-cards {
+  .intro-container,
+  .testimonial-cards {
     flex-wrap: wrap;
   }
-  .categorys-card{
+  .categorys-card {
     flex: 50%;
     max-width: 50%;
   }
-  .contact-form{
+  .contact-form {
     flex-wrap: wrap;
   }
-  .contact-form .left-side{
+  .contact-form .left-side {
     margin-bottom: 32px;
   }
   .contact-form .left-side,
-  .contact-form .right-side{
+  .contact-form .right-side {
     flex: 0 0 100%;
     max-width: 100%;
     padding: 0 24px;
@@ -1782,7 +1796,7 @@ table {
     padding-top: 28px;
     padding-bottom: 28px;
   }
-  .pt48{
+  .pt48 {
     padding-top: 28px;
   }
   .testimonial-border-radius:after {
@@ -1863,7 +1877,7 @@ table {
   }
   .swiper .swiper-slide {
     min-height: 450px;
-}
+  }
   .news-section,
   .facilty-sec,
   .manpower-sec {
@@ -1925,17 +1939,17 @@ table {
     max-width: 100%;
   }
   .contact-form .left-side,
-  .contact-form .right-side{
+  .contact-form .right-side {
     padding: 0 12px;
   }
-  .contact-form-input{
+  .contact-form-input {
     flex: 0 0 100%;
     max-width: 100%;
   }
-  .contact-form-btn{
+  .contact-form-btn {
     width: 100%;
   }
-  .contact-map{
+  .contact-map {
     height: 350px;
   }
 }
@@ -1958,7 +1972,7 @@ table {
   .home-content,
   .container-content,
   .cont-list,
-  .testimonial-all-cards  {
+  .testimonial-all-cards {
     display: block;
   }
   .flx16 {
@@ -1992,7 +2006,7 @@ table {
     flex: 0 0 100%;
     margin-top: 24px;
   }
-  .contact-map{
+  .contact-map {
     height: 250px;
   }
   .footer-list {
@@ -2002,7 +2016,13 @@ table {
     flex: 0 0 100%;
     max-width: 100%;
     margin-top: 16px;
-}
+  }
+  .service-card-img {
+    height: 195px;
+  }
+  .service-card-text {
+    padding: 4px 4px 4px 8px;
+  }
 }
 
 @media only screen and (max-width: 376px) {
@@ -2023,4 +2043,7 @@ table {
     margin-left: 12px;
     margin-bottom: 32px;
   }
+}
+.wcu-img img {
+  object-fit: cover;
 }
