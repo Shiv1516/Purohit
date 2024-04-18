@@ -81,7 +81,7 @@ figure {
 body {
   line-height: 1;
   font-size: 100%;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
   font-weight: 400;
   color: #61656f;
 }
@@ -182,6 +182,9 @@ table {
 .tas {
   text-align: start;
 }
+.taj {
+  text-align: justify;
+}
 
 .tal {
   text-align: left;
@@ -193,7 +196,7 @@ table {
 .tdhu:hover {
   text-decoration: underline;
 }
-.tdlt{
+.tdlt {
   text-decoration: line-through;
 }
 .jcc,
@@ -333,7 +336,7 @@ table {
 .bg7 {
   background-color: rgba(255, 251, 239, 0.6);
 }
-.bg8{
+.bg8 {
   background-color: #d1722c;
 }
 .bg4,
@@ -389,11 +392,11 @@ table {
 .fc-h2:hover {
   color: #ffda44;
 }
-.fc7{
+.fc7 {
   color: #d1722c;
 }
 .ff2 {
-    font-family: 'Nanum Gothic', sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
 }
 
 .fill1,
@@ -911,10 +914,10 @@ table {
   border: 1px solid #edcc6ec4;
 }
 .brd-b1 {
-    border-bottom: 1px solid #eceff2!important;
+  border-bottom: 1px solid #eceff2 !important;
 }
 .brd-b2 {
-    border-left: 1px solid #dee2e6!important;
+  border-left: 1px solid #dee2e6 !important;
 }
 .brd-b3 {
   border-bottom: 2px solid #dfc57a;
@@ -1008,7 +1011,7 @@ table {
 .h100vh {
   height: 100vh;
 }
-.h100{
+.h100 {
   height: 100%;
 }
 
@@ -1031,7 +1034,7 @@ table {
 .br-br-01 {
   border-radius: 0 4px 4px 0;
 }
-.w4{
+.w4 {
   width: 4px;
 }
 .br-br-04 {
@@ -1052,12 +1055,11 @@ table {
   margin-left: auto;
   margin-right: auto;
 }
-.wrapper2{
+.wrapper2 {
   width: 98%;
   margin-left: auto;
   margin-right: auto;
 }
-
 
 .menu-btn {
   display: none;
@@ -1121,10 +1123,10 @@ table {
 .hero .hero-content {
   max-width: 40vw;
 }
-.hero-section{
+.hero-section {
   height: 750px;
 }
-.testimonial-img img{
+.testimonial-img img {
   border-radius: 50%;
   max-width: 100px;
 }
@@ -1133,94 +1135,97 @@ table {
   margin: auto;
 }
 
-.trending-img{
+.trending-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 .card-wrap:hover,
-.review-card:hover{
+.review-cards:hover {
   transform: scale(1.02);
 }
-.service-cards .card{
+.service-cards .card {
   height: auto;
 }
 
 .trending-card:hover {
   box-shadow: 0px 0px 5px 6px #dfc57a;
 }
-.review-card:hover {
-  box-shadow: 0px 0px 30px -5px rgba(237,203,110,1);
+.review-cards:hover {
+  box-shadow: 0px 0px 30px -5px rgba(237, 203, 110, 1);
 }
-.blog-small-img{
+.blog-small-img {
   max-width: 50px;
   margin-top: -30px;
   right: 16px;
   cursor: pointer;
 }
-.small-img-text{
+.small-img-text {
   right: 0px;
   top: 25px;
   display: none;
 }
-.blog-small-img:hover .small-img-text{
-    display: block;
+.blog-small-img:hover .small-img-text {
+  display: block;
 }
-.blog-btn:hover{
-  background-color: #C42936;
+.blog-btn:hover {
+  background-color: #c42936;
 }
-.media-box img{
+.media-box img {
   width: 100%;
   height: auto;
 }
-.newsletter-input{
+.newsletter-input {
   border-radius: 4px 0 0 4px;
 }
-.newsletter-btn{
+.newsletter-btn {
   border-radius: 0 4px 4px 0;
 }
-.newsletter-btn:hover{
+.newsletter-btn:hover {
   background-color: #f2d78e;
 }
-.logo-deco img{
+.logo-deco img {
   width: 72px;
   min-height: 60px;
   max-height: 60px;
 }
 
 /* temple-services */
-.temple-slider-01{
+.temple-slider-01 {
   height: 325px;
   min-height: 60vh;
-  background: url(images/temple-service-slider-img/ganpati-templepurohit.jpg)  no-repeat center/cover;
+  background: url(images/temple-service-slider-img/ganpati-templepurohit.jpg)
+    no-repeat center/cover;
 }
-.temple-slider-02{
+.temple-slider-02 {
   height: 325px;
   min-height: 60vh;
-  background: url(images/temple-service-slider-img/lord-shiva.jpg)  no-repeat top/cover;
+  background: url(images/temple-service-slider-img/lord-shiva.jpg) no-repeat
+    top/cover;
 }
-.temple-slider-03{
+.temple-slider-03 {
   height: 325px;
   min-height: 60vh;
-  background: url(images/temple-service-slider-img/temple-purohit-get.jpg)  no-repeat center/cover;
+  background: url(images/temple-service-slider-img/temple-purohit-get.jpg)
+    no-repeat center/cover;
 }
-.temple-card{
+.temple-card {
   width: 290px;
 }
 /* Astrology-page */
-.card-main-section img{
+.card-main-section img {
   border-radius: 50%;
   max-width: 45px;
 }
 /* shop-page */
-.search-leftContainer{
+.search-leftContainer {
   min-width: 252px;
   max-width: 252px;
 }
-.product-base{
+.product-base {
   width: 240px;
 }
-.product-fav{
+.product-fav {
   top: 8px;
   right: 8px;
 }
@@ -1228,33 +1233,31 @@ table {
 /* .prd-img{
   height: 280px;
 } */
-.brd-01{
+.brd-01 {
   border-left: 4px solid #bc222e;
 }
-.bs3{
+.bs3 {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-@media screen and (max-width: 1025px){
-  .w60{
+@media screen and (max-width: 1025px) {
+  .w60 {
     width: 100%;
   }
-  .astrology-card{
+  .astrology-card {
     max-width: 45%;
     flex: 0 0 100%;
     margin-bottom: 16px;
   }
-  .testimonial-desc{
+  .testimonial-desc {
     width: 80%;
   }
-  
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .header-container {
-    position: relative;
     padding: 8px 24px;
   }
-  .navbar{
+  .navbar {
     display: none;
     position: absolute;
     top: 80px;
@@ -1266,63 +1269,86 @@ table {
     width: 100%;
     height: calc(100vh - 80px);
     z-index: 99;
+  }
+  .on-nav,
+  .nav-list {
+    display: block;
+  }
+  .nav-item {
+    padding: 20px 0 20px 24px;
+    border-bottom: 1px solid #e9bf3e;
+  }
+  .nav-btn {
+    padding: 16px 0 16px 24px;
+    height: auto;
+  }
+  .menu-btn {
+    display: flex;
+  }
+  .workship {
+    flex: 0 0 50%;
+    max-width: 100%;
+    margin: 0px;
+    padding-top: 12px;
+  }
+  .footer-box,
+  .review-card,
+  .temple-card {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 24px;
+  }
+  .product-base {
+    flex: 0 0 33%;
+    max-width: 33%;
+  }
+  .hero-text-section h2 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .hero-text-section {
+    width: 100%;
+  }
+  .astrology-card {
+    flex: 0 0 96%;
+    max-width: 100%;
+  }
 }
-.on-nav, .nav-list{
-  display: block;
-}
-.nav-item{
-  padding: 20px 0 20px 24px;
-  border-bottom: 1px solid #e9bf3e;
-}
-.nav-btn{
-  padding: 16px 0 16px 24px;
-  height: auto;
-}
-.menu-btn{
-  display: flex;
-}
-.workship{
-  flex: 0 0 50%;
-  max-width: 100%;
-  margin: 0px;
-  padding-top: 12px;
-}
-}
-@media screen and (max-width: 541px){
-  .ptb72{
+@media screen and (max-width: 541px) {
+  .ptb72 {
     padding-top: 48px;
     padding-bottom: 48px;
   }
-  .w50{
+  .w50 {
     width: 100%;
   }
-  
+
   .hero-section {
     height: 950px;
-}
+  }
 
-.form-section{
-  padding: 16px 2px 0 2px;
-}
-  .blog-container{
+  .form-section {
+    padding: 16px 2px 0 2px;
+  }
+  .blog-container {
     text-align: center;
     margin-bottom: 16px;
-  } 
-  .review-container{
+  }
+  .review-container {
     flex-wrap: wrap;
   }
-  .card-bottom{
+  .card-bottom {
     text-align: center;
   }
-  .blog-container{
+  .blog-container {
     flex: 0 0 100%;
     max-width: 100%;
   }
-  .media-container{
+  .media-container {
     display: flex;
     flex-wrap: wrap;
   }
-  .media-box{
+  .media-box {
     flex: 0 0 40%;
     max-width: 100%;
     padding: 12px 0;
@@ -1337,118 +1363,134 @@ table {
   .newsletter-text-section p {
     font-size: 14px;
   }
-  .newsletter-form{
+  .newsletter-form {
     justify-content: start;
   }
   .newsletter-input {
     flex: 2;
     max-width: 100%;
   }
-  .review-card{
+  .review-card {
     flex: 0 0 100%;
     max-width: 100%;
     padding: 12px;
     margin: 0;
-   margin-bottom: 12px;
+    margin-bottom: 12px;
   }
-  
+
   .hero-form-section {
     display: block;
   }
-  .form-section{
+  .form-section,
+  .review-card,
+  .temple-card {
     max-width: 100%;
     flex: 0 0 100%;
     padding-top: 24px;
   }
-  .footer-container, .footer-left{
+  .footer-container,
+  .footer-left {
     flex-wrap: wrap;
   }
-  .footer-box, .footer-search-section{
+  .footer-box {
     flex: 0 0 100%;
     max-width: 100%;
     padding-top: 24px;
+    text-align: left;
   }
-  .footer-box, .footer-text-section {
+  .footer-item-list,
+  .footer-social-list {
+    display: block;
+    text-align: left;
+    justify-content: left;
+  }
+  .footer-social-list {
+    display: flex;
+  }
+  .footer-text-section {
     flex: 0 0 100%;
     max-width: 100%;
   }
-  .astrology-container{
+  .astrology-container {
     display: block;
   }
-  .astrology-card{
+  .astrology-card {
     max-width: 100%;
     flex: 0 0 100%;
     margin-bottom: 16px;
   }
-  .temple-left-card{
+  .temple-left-card {
     flex: 0 0 100%;
     max-width: 100%;
   }
-  .temple-right-card{
+  .temple-right-card {
     flex: 0 0 100%;
     max-width: 100%;
     margin-top: 16px;
   }
-  .temple-card{
+  .temple-card {
     flex: 0 0 33%;
     max-width: 100%;
   }
-  .newsletter-container{
+  .newsletter-container {
     flex-wrap: wrap;
   }
-  .newsletter-text{
+  .newsletter-text {
     flex: 0 0 100%;
     max-width: 100%;
   }
+  .product-base {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
 }
-@media screen and (max-width: 441px){
-  .flx25{
+@media screen and (max-width: 441px) {
+  .flx25 {
     flex: 0 0 100%;
     max-width: 100%;
   }
 
   .fs52 {
     font-size: 32px;
-}
-.fs36 {
-  font-size: 24px;
-  line-height: 28px;
-}
-.workship {
-  justify-content: center;
-  padding-top: 12px;
-}
-.workship a{
-  justify-content: center;
-}
-.services-btn{
-  margin: 0px;
-}
-.media-main-text{
-  padding: 0px;
-}
-.media-section {
+  }
+  .fs36 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .workship {
+    justify-content: center;
+    padding-top: 12px;
+  }
+  .workship a {
+    justify-content: center;
+  }
+  .services-btn {
+    margin: 0px;
+  }
+  .media-main-text {
+    padding: 0px;
+  }
+  .media-section {
     padding-bottom: 0px;
+  }
+  .testimonial-desc {
+    width: 100%;
+  }
+  .footer-container {
+    padding: 12px 0;
+  }
+  .newsletter-form {
+    justify-content: start;
+  }
+  .newsletter-input {
+    flex: 0 0 75%;
+    max-width: 100%;
+  }
+  .newsletter-btn {
+    flex: 0 0 25%;
+    max-width: 100%;
+    padding: 0 0;
+  }
 }
-.testimonial-desc {
-  width: 100%;
-}
-.footer-container{
-  padding: 12px 0;
-}
-.newsletter-form{
-  justify-content: start;
-}
-.newsletter-input{
-  flex: 0 0 75%;
-  max-width: 100%;
-}
-.newsletter-btn{
-  flex: 0 0 25%;
-  max-width: 100%;
-  padding: 0 0;
-}
-}
-
 
 /* width: 124px */
