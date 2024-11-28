@@ -1543,16 +1543,7 @@ table {
     width: 100vw;
     z-index: 99;
   }
-  .navbar.on-nav {
-    display: block;
-  }
-  .nav-items .nav-item {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-  .navbar .popup-btn {
-    margin: 24px;
-  }
+  C
   .nav-list-dd:after,
   .nav-list-dd:before {
     display: none;
